@@ -20,6 +20,11 @@
 		C11B06E9209E587600D82CB9 /* MomentTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C11B06E7209E587600D82CB9 /* MomentTableCell.swift */; };
 		C11B06EA209E587600D82CB9 /* MomentTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C11B06E8209E587600D82CB9 /* MomentTableCell.xib */; };
 		C11B06EC209E5AE400D82CB9 /* PictureRounded.swift in Sources */ = {isa = PBXBuildFile; fileRef = C11B06EB209E5AE400D82CB9 /* PictureRounded.swift */; };
+		C11B06EF209EFEE600D82CB9 /* MomentsCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C11B06ED209EFEE600D82CB9 /* MomentsCollectionCell.swift */; };
+		C11B06F0209EFEE600D82CB9 /* MomentsCollectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C11B06EE209EFEE600D82CB9 /* MomentsCollectionCell.xib */; };
+		C11B06F3209F226A00D82CB9 /* DetailPhotoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C11B06F1209F226A00D82CB9 /* DetailPhotoController.swift */; };
+		C11B06F4209F226A00D82CB9 /* DetailPhotoController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C11B06F2209F226A00D82CB9 /* DetailPhotoController.xib */; };
+		C11B06F6209F253D00D82CB9 /* Ratio.swift in Sources */ = {isa = PBXBuildFile; fileRef = C11B06F5209F253D00D82CB9 /* Ratio.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +43,11 @@
 		C11B06E7209E587600D82CB9 /* MomentTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MomentTableCell.swift; sourceTree = "<group>"; };
 		C11B06E8209E587600D82CB9 /* MomentTableCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MomentTableCell.xib; sourceTree = "<group>"; };
 		C11B06EB209E5AE400D82CB9 /* PictureRounded.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PictureRounded.swift; sourceTree = "<group>"; };
+		C11B06ED209EFEE600D82CB9 /* MomentsCollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MomentsCollectionCell.swift; sourceTree = "<group>"; };
+		C11B06EE209EFEE600D82CB9 /* MomentsCollectionCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MomentsCollectionCell.xib; sourceTree = "<group>"; };
+		C11B06F1209F226A00D82CB9 /* DetailPhotoController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailPhotoController.swift; sourceTree = "<group>"; };
+		C11B06F2209F226A00D82CB9 /* DetailPhotoController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DetailPhotoController.xib; sourceTree = "<group>"; };
+		C11B06F5209F253D00D82CB9 /* Ratio.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ratio.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +99,8 @@
 				C11B06DD209E52A800D82CB9 /* TableController.swift */,
 				C11B06DE209E52A800D82CB9 /* TableController.xib */,
 				C11B06E1209E539A00D82CB9 /* TabBarController.swift */,
+				C11B06F1209F226A00D82CB9 /* DetailPhotoController.swift */,
+				C11B06F2209F226A00D82CB9 /* DetailPhotoController.xib */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -99,6 +111,8 @@
 				C11B06E7209E587600D82CB9 /* MomentTableCell.swift */,
 				C11B06E8209E587600D82CB9 /* MomentTableCell.xib */,
 				C11B06EB209E5AE400D82CB9 /* PictureRounded.swift */,
+				C11B06ED209EFEE600D82CB9 /* MomentsCollectionCell.swift */,
+				C11B06EE209EFEE600D82CB9 /* MomentsCollectionCell.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -108,6 +122,7 @@
 			children = (
 				C11B06E3209E550000D82CB9 /* Photo.swift */,
 				C11B06E5209E562000D82CB9 /* BasePhoto.swift */,
+				C11B06F5209F253D00D82CB9 /* Ratio.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -171,8 +186,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				C11B06E0209E52A800D82CB9 /* TableController.xib in Resources */,
+				C11B06F4209F226A00D82CB9 /* DetailPhotoController.xib in Resources */,
 				C11B06EA209E587600D82CB9 /* MomentTableCell.xib in Resources */,
 				C11B06CF209E4FE800D82CB9 /* LaunchScreen.storyboard in Resources */,
+				C11B06F0209EFEE600D82CB9 /* MomentsCollectionCell.xib in Resources */,
 				C11B06DC209E51BC00D82CB9 /* CollectionController.xib in Resources */,
 				C11B06CC209E4FE800D82CB9 /* Assets.xcassets in Resources */,
 			);
@@ -186,13 +203,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				C11B06DF209E52A800D82CB9 /* TableController.swift in Sources */,
+				C11B06F3209F226A00D82CB9 /* DetailPhotoController.swift in Sources */,
 				C11B06E9209E587600D82CB9 /* MomentTableCell.swift in Sources */,
 				C11B06E6209E562000D82CB9 /* BasePhoto.swift in Sources */,
 				C11B06E2209E539A00D82CB9 /* TabBarController.swift in Sources */,
 				C11B06EC209E5AE400D82CB9 /* PictureRounded.swift in Sources */,
 				C11B06C5209E4FE700D82CB9 /* AppDelegate.swift in Sources */,
+				C11B06F6209F253D00D82CB9 /* Ratio.swift in Sources */,
 				C11B06DB209E51BC00D82CB9 /* CollectionController.swift in Sources */,
 				C11B06E4209E550000D82CB9 /* Photo.swift in Sources */,
+				C11B06EF209EFEE600D82CB9 /* MomentsCollectionCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

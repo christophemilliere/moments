@@ -37,6 +37,12 @@ class TableController: UIViewController, UITableViewDelegate, UITableViewDataSou
         return UITableViewCell()
     }
     
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let controller = DetailPhotoController()
+        controller.photo = photos[indexPath.row]
+        self.navigationController?.pushViewController(controller, animated: true)
+    }
+    
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         return 150
     }
